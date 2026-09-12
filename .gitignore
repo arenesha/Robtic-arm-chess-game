@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+*.pyo
+*.log
+stockfish.zip
+stockfish_temp/
+.env
+venv/
+.venv/
+.vscode/
+.idea/

@@ -1,0 +1,24 @@
+camera:
+  camera_id: 0
+  resolution: 800
+
+stockfish:
+  path: "stockfish"
+  depth: 15
+  threads: 2
+  minimum_thinking_time: 30
+
+robot:
+  port: "COM3"
+  baudrate: 115200
+  square_size_mm: 35
+  safe_z: 100
+  pick_z: 10
+  corners:
+    a1: [0, 0, 0]
+    h1: [280, 0, 0]
+    a8: [0, 280, 0]
+    h8: [280, 280, 0]
+
+vision:
+  yolo_model_path: ""  # Leave empty to use fallback contour detection
